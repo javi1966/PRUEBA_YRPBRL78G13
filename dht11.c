@@ -1,9 +1,9 @@
 
 #include "dht11.h"
 #include "delay.h" 
-
-unsigned short TOUT = 0;
-volatile long widthPulso;
+ 
+ unsigned short TOUT = 0;
+ volatile long widthPulso;
  long PulseWidth[45];		/* Store pulse width */
  int g_Times = 0;						/* Measurement times counter */
  unsigned char temperatura = 0;
