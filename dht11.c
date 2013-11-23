@@ -49,8 +49,7 @@ void initDHT11()
   TOE0 &= ~0x0002;
   NFEN1 &= (unsigned char)~0x02;
   PM1 |= 0x40U;
-  
-} 
+ } 
 
 //****************************************************************************************
 unsigned short CheckResponse()
