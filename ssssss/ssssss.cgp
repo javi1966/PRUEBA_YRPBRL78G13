@@ -1,0 +1,964 @@
+<NEC78K0RKx4>
+  <VAR>
+    <fCLK Name="fCLK" Value="32" Comment="4M" Trigger="fCLK">
+      <Effect>
+        <AD />
+        <SAU0 />
+        <IICA0 />
+        <TAU0 />
+      </Effect>
+    </fCLK>
+    <fIH Name="fIH" Value="32" Comment="32M" Trigger="fIH">
+      <Effect>
+        <LVD Forcible="" />
+      </Effect>
+    </fIH>
+    <fSUB Name="fSUB" Value="0" Comment="0K" Trigger="fSUB">
+      <Effect>
+        <TAU0 />
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+      </Effect>
+    </fSUB>
+    <fIL Name="fIL" Value="15" Comment="15K" Trigger="fIL">
+      <Effect>
+        <WDT />
+        <TAU0 />
+      </Effect>
+    </fIL>
+    <fRTC Name="fRTC" Value="15" Comment="15k" Trigger="fRTC">
+      <Effect>
+        <RTC />
+        <IT />
+      </Effect>
+    </fRTC>
+    <fMAIN Name="fMAIN" Value="32" Comment="32M" Trigger="fMAIN">
+      <Effect>
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+      </Effect>
+    </fMAIN>
+    <fINTTM02 Name="fINTTM02" Value="0" Comment="0M" Trigger="INTTM02">
+      <Effect>
+        <SAU0 />
+      </Effect>
+    </fINTTM02>
+    <VDD_MIN Name="VDD_MIN" Value="4" Comment="4.0V" Trigger="VDD">
+      <Effect>
+        <PCLBUZ0 />
+        <PCLBUZ1 />
+        <IICA0 />
+      </Effect>
+    </VDD_MIN>
+    <VDD_MAX Name="VDD_MAX" Value="5.5" Comment="5.5V" />
+    <VDD Name="VDD" Text="false" Comment="used" />
+    <IIC00 Name="IIC00" Text="false" Comment="unused" Trigger="IIC00">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC00>
+    <IIC01 Name="IIC01" Text="false" Comment="unused" Trigger="IIC01">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC01>
+    <IIC10 Name="IIC10" Text="false" Comment="unused" Trigger="IIC10">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC10>
+    <IIC11 Name="IIC11" Text="false" Comment="unused" Trigger="IIC11">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC11>
+    <IIC20 Name="IIC20" Text="false" Comment="unused" Trigger="IIC20">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC20>
+    <IIC21 Name="IIC21" Text="false" Comment="unused" Trigger="IIC21">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IIC21>
+    <IICA0 Name="IICA0" Text="false" Comment="unused" Trigger="IICA0">
+      <Effect>
+        <PORT Forcible="" />
+      </Effect>
+    </IICA0>
+    <ProjectName Name="PrjName" Text="ssssss" />
+    <ProjectPath Name="PrjPath" Text="D:\DESARROLLOS\PRUEBA_YRPBRL78G13\ssssss" />
+    <ProjectKind Name="PrjKind" Text="Project78K0R" />
+    <DeviceName Name="DeviceName" Fixed="" Text="78K0RKx4" />
+    <MCUName Name="MCUName" Text="NEC78K0RKA4" />
+    <ChipName Name="ChipName" Text="R5F1006A" />
+    <ChipID Name="ChipID" Text="DF1051_20" />
+    <MCUType Name="MCUType" Fixed="" Text="RL78" />
+    <Compiler Name="Compiler" Text="ICCRL78" />
+    <UseSecurityId Name="GI" Text="0" />
+    <SecurityId Name="GIValue" Text="FFFFFFFFFFFFFFFFFFFF" />
+    <LinkDirectiveFile Name="D0" Text="lk.dr" />
+    <OnChipDebugOptionBytes Name="GO" Text="1" />
+    <OnChipDebugOptionBytesValue Name="GOValue" Text="04" />
+    <StartAddressOfOnChipDebugOptionBytes Name="GOStart" Text="3E00" />
+    <SizeOfOnChipDebugOptionBytesArea Name="GOSizeValue" Text="512" />
+    <UserOptionBytes Name="GB" Text="1" />
+    <UserOptionBytesValue Name="GBValue" Text="FF73E8" />
+    <RAMStartAddress Chip="DF1051_20,DF1051_24,DF1051_25,DF1055_30,DF1055_32,DF1055_36,DF1059_40,DF1059_44,DF1059_48" Name="RAMStartAddress" Fixed="" Text="000FF700" />
+    <RAMEndAddress Name="RAMEndAddress" Fixed="" Text="000FFEFF" />
+    <ROMEndAddress Chip="DF1051_20,DF1051_24,DF1051_25,DF1055_30,DF1055_32,DF1055_36,DF1059_40,DF1059_44,DF1059_48" Name="ROMEndAddress" Fixed="" Text="00003FFF" />
+    <MirrorROM Chip="DF1051_20,DF1051_24,DF1051_25,DF1052_20,DF1052_24,DF1052_25,DF1055_30,DF1055_32,DF1055_36,DF1056_30,DF1056_32,DF1056_36,DF1059_40,DF1059_44,DF1059_48,DF1060_40,DF1060_44,DF1060_48,DF1064_52,DF1068_64" Name="MirrorROM" Fixed="" Text="53.75" />
+    <CodePath Name="CodePath" Text=".\" />
+    <ReportType Name="ReportType" Text="Html" />
+    <GenerateType Name="GenerateType" Text="Merge" />
+    <PIORValue Name="PIORValue" Text="default" />
+    <PrjVersion Name="PrjVersion" Text="1.2.0.1" />
+    <UICultureNumberDecimalSeparator Name="UICultureNumberDecimalSeparator" Text="," />
+    <UICultureNumberGroupSeparator Name="UICultureNumberGroupSeparator" Text="." />
+  </VAR>
+  <DIR>
+    <PIN>
+      <System>
+        <X1 Port="P121" Point="-" />
+        <X2 Port="P122" Point="-" />
+        <EXCLK Port="P122" Point="I" />
+        <TOOL0 Port="P40" Point="I/O" />
+      </System>
+      <PORT>
+        <Port0 Chip="NEC78K0RKA4,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" DIN="true" Pullup="true">
+          <P00 Name="P00/ANI17/TI00/TXD1" Nch="true" AltFunc="" Point="I/O" />
+          <P01 Name="P01/ANI16/TO00/RXD1" TTL="true" AltFunc="" Point="I/O" />
+        </Port0>
+        <Port1 Pullup="true">
+          <P10 Chip="NEC78K0RKC4,NEC78K0RKB4,NEC78K0RKA4" Name="P10/_SCK00/SCL00" AltFunc="" Point="I/O" />
+          <P11 Chip="NEC78K0RKC4,NEC78K0RKB4,NEC78K0RKA4" Name="P11/SI00/RXD0/TOOLRXD/SDA00" AltFunc="" Point="I/O" />
+          <P12 Name="P12/SO00/TXD0/TOOLTXD" Nch="true" AltFunc="" Point="I/O" />
+          <P16 Chip="DF1051_20,DF1052_20,DF1053_20,DF1054_20" Name="P16/TI01/TO01/INTP5/SO11" TTL="true" AltFunc="" Point="I/O" />
+          <P17 Chip="DF1051_20,DF1052_20,DF1053_20,DF1054_20" TTL="true" Name="P17/TI02/TO02/SI11/SDA11" Nch="true" AltFunc="" Point="I/O" />
+        </Port1>
+        <Port2 ADIN="true">
+          <P20 Name="P20/ANI0/AVREFP" AltFunc="" Point="I/O" />
+          <P21 Name="P21/ANI1/AVREFM" AltFunc="" Point="I/O" />
+          <P22 Name="P22/ANI2" AltFunc="" Point="I/O" />
+        </Port2>
+        <Port3 Pullup="true">
+          <P30 Chip="NEC78K0RKB4,NEC78K0RKA4" Name="P30/INTP3/_SCK11/SCL11" AltFunc="" Point="I/O" />
+        </Port3>
+        <Port4 Pullup="true">
+          <P40 Name="P40/TOOL0" AltFunc="" Point="I/O" />
+        </Port4>
+        <Port12>
+          <P121 Name="P121/X1" AltFunc="" Point="I" />
+          <P122 Name="P122/X2/EXCLK" AltFunc="" Point="I" />
+        </Port12>
+        <Port13>
+          <P137 Name="P137/INTP0" AltFunc="" Point="I" />
+        </Port13>
+        <Port14 Pullup="true">
+          <P147 Name="P147/ANI18" DIN="true" AltFunc="" Point="I/O" />
+        </Port14>
+      </PORT>
+      <INT>
+        <INTP>
+          <INTP0 Port="P137" Point="I" />
+          <INTP3 Port="P30" Point="I" />
+          <INTP5 Port="P16" Point="I" />
+        </INTP>
+        <KEY>
+        </KEY>
+      </INT>
+      <AD>
+        <ANI0 Port="P20" Unconfilct="AVREFP" Point="I" />
+        <ANI1 Port="P21" Unconfilct="AVREFM" Point="I" />
+        <ANI2 Port="P22" Point="I" />
+        <ANI16 Chip="NEC78K0RKA4,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" Port="P01" Point="I" />
+        <ANI17 Chip="NEC78K0RKA4,DF1055_30,DF1056_30,DF1057_30,DF1058_30,DF1055_32,DF1056_32,DF1057_32,DF1058_32" Port="P00" Point="I" />
+        <ANI18 Port="P147" Point="I" />
+        <AVREFP Port="P20" Unconfilct="ANI0" Point="I" />
+        <AVREFM Port="P21" Unconfilct="ANI1" Point="I" />
+      </AD>
+      <Serial>
+        <SAU0>
+          <UART0>
+            <TXD0 PIOR="default,timer" Port="P12" RealName="TxD0" Point="O" />
+            <RXD0 PIOR="default,timer" Port="P11" RealName="RxD0" Point="I" />
+          </UART0>
+          <UART1>
+            <TXD1 Chip="NEC78K0RKA4,NEC78K0RKB4,NEC78K0RKC4" Port="P00" RealName="TxD1" Point="O" />
+            <RXD1 Chip="NEC78K0RKA4,NEC78K0RKB4,NEC78K0RKC4" Port="P01" RealName="RxD1" Point="I" />
+          </UART1>
+          <CSI00 PIOR="default,timer">
+            <SO00 Port="P12" Point="O" />
+            <SI00 Port="P11" Point="I" />
+            <SCK00 Port="P10" RealName="_SCK00" Point="I/O" />
+          </CSI00>
+          <CSI11>
+            <SO11 Chip="DF1051_20,DF1052_20,DF1053_20,DF1054_20" Port="P16" Point="O" />
+            <SI11 Chip="DF1051_20,DF1052_20,DF1053_20,DF1054_20" Port="P17" Point="I" />
+            <SCK11 Port="P30" RealName="_SCK11" Point="I/O" />
+          </CSI11>
+          <IIC00 PIOR="default,timer">
+            <SCL00 Port="P10" Point="O" CheckNch="true" />
+            <SDA00 Port="P11" Point="O" CheckNch="true" />
+          </IIC00>
+          <IIC11>
+            <SCL11 Port="P30" Point="O" CheckNch="true" />
+            <SDA11 Chip="DF1051_20,DF1052_20,DF1053_20,DF1054_20" Port="P17" Point="O" CheckNch="true" />
+          </IIC11>
+        </SAU0>
+        <IICA0>
+        </IICA0>
+      </Serial>
+      <TAU>
+        <TAU0 PIOR="default,serial">
+          <Channel0>
+            <TI00 Port="P00" Point="I" />
+            <TO00 Port="P01" Point="O" />
+          </Channel0>
+          <Channel1>
+            <TI01 Port="P16" Point="I" />
+            <TO01 Port="P16" Point="O" />
+          </Channel1>
+          <Channel2>
+            <TI02 Port="P17" Point="I" />
+            <TO02 Port="P17" Point="O" />
+          </Channel2>
+        </TAU0>
+      </TAU>
+      <RTC>
+      </RTC>
+      <PCLBUZ>
+        <PCLBUZ0>
+        </PCLBUZ0>
+        <PCLBUZ1>
+        </PCLBUZ1>
+      </PCLBUZ>
+      <Others>
+        <VDD AltFunc="VDD" Point="-" />
+        <VSS AltFunc="VSS" Point="-" />
+        <REGC AltFunc="REGC" Point="-" />
+        <_RESET AltFunc="_RESET" RealName="_RESET" Point="I" />
+      </Others>
+    </PIN>
+    <INT>
+      <INT>
+        <INTP>
+          <INTP0 InUse="0" ISR="MD_INTP0" />
+          <INTP3 InUse="0" ISR="MD_INTP3" />
+          <INTP5 InUse="0" ISR="MD_INTP5" />
+        </INTP>
+        <KEY>
+        </KEY>
+      </INT>
+      <Serial>
+        <SAU0>
+          <INTCSI00 InUse="0" ISR="MD_INTCSI00" />
+          <INTCSI11 InUse="0" ISR="MD_INTCSI11" />
+          <INTST0 InUse="0" ISR="MD_INTST0" />
+          <INTSRE0 InUse="0" ISR="MD_INTSRE0" />
+          <INTSR0 InUse="0" ISR="MD_INTSR0" />
+          <INTCSI10 InUse="0" ISR="MD_INTCSI10" />
+          <INTST1 InUse="0" ISR="MD_INTST1" />
+          <INTSRE1 InUse="0" ISR="MD_INTSRE1" />
+          <INTSR1 InUse="0" ISR="MD_INTSR1" />
+          <INTIIC00 InUse="0" ISR="MD_INTIIC00" />
+          <INTIIC11 InUse="0" ISR="MD_INTIIC11" />
+        </SAU0>
+        <IICA0>
+        </IICA0>
+      </Serial>
+      <AD>
+        <INTAD InUse="0" ISR="MD_INTAD" IsDMATrigger="true" />
+      </AD>
+      <TAU>
+        <TAU0>
+          <Channel0>
+            <INTTM00 InUse="1" ISR="MD_INTTM00" />
+          </Channel0>
+          <Channel1>
+            <INTTM01 InUse="0" ISR="MD_INTTM01" />
+            <INTTM01H InUse="0" ISR="MD_INTTM01H" />
+          </Channel1>
+          <Channel2>
+            <INTTM02 InUse="0" ISR="MD_INTTM02" />
+          </Channel2>
+          <Channel3>
+            <INTTM03 InUse="0" ISR="MD_INTTM03" />
+            <INTTM03H InUse="0" ISR="MD_INTTM03H" />
+          </Channel3>
+          <Channel4>
+            <INTTM04 InUse="0" ISR="MD_INTTM04" />
+          </Channel4>
+          <Channel5>
+            <INTTM05 InUse="0" ISR="MD_INTTM05" />
+          </Channel5>
+          <Channel6>
+            <INTTM06 InUse="0" ISR="MD_INTTM06" />
+          </Channel6>
+          <Channel7>
+            <INTTM07 InUse="0" ISR="MD_INTTM07" />
+          </Channel7>
+        </TAU0>
+      </TAU>
+      <IT>
+        <INTIT InUse="0" ISR="MD_INTIT" />
+      </IT>
+      <DMA>
+        <DMA0>
+          <INTDMA0 InUse="0" ISR="MD_INTDMA0" />
+        </DMA0>
+        <DMA1>
+          <INTDMA1 InUse="0" ISR="MD_INTDMA1" />
+        </DMA1>
+      </DMA>
+      <WDT>
+        <INTWDTI InUse="0" ISR="MD_INTWDTI" IsDMATrigger="true" />
+      </WDT>
+      <LVD>
+        <INTLVI InUse="0" ISR="MD_INTLVI" IsDMATrigger="true" />
+      </LVD>
+    </INT>
+    <FUNC>
+      <Common>
+        <CG_main.c UserName="CG_main.c" LibName="main.c" IsLibrary="false" InUse="2">
+          <Type main="void main(void)" />
+          <main UserName="main" LibName="main" FixedName="" InUse="2" ForRTOS="false" Init="" />
+        </CG_main.c>
+        <CG_systeminit.c UserName="CG_systeminit.c" LibName="systeminit.c" InUse="1">
+          <Type systeminit="void systeminit(void)" hdwinit="void hdwinit(void)" inti_handler="void inti_handler(void)" idle_handler="void idle_handler(void)" />
+          <systeminit UserName="systeminit" LibName="systeminit" InUse="1" Init="" />
+          <hdwinit UserName="hdwinit" LibName="hdwinit" FixedName="" InUse="1" Init="" />
+        </CG_systeminit.c>
+        <CG_macrodriver.h UserName="CG_macrodriver.h" LibName="macrodriver.h" InUse="1" />
+        <CG_userdefine.h UserName="CG_userdefine.h" LibName="userdefine.h" InUse="1" />
+        <CG_lk.dr UserName="CG_lk.dr" LibName="lk.dr" IsLibrary="false" Compiler="CARL78" InUse="1" />
+        <CG_mdlnk.xcl UserName="CG_mdlnk.xcl" LibName="md_lnk.xcl" Visible="false" IsLibrary="false" Compiler="ICCRL78" InUse="1" />
+        <CG_mdt.eww UserName="CG_mdt.eww" LibName="mdt.eww" Visible="false" IsLibrary="false" Compiler="ICCRL78" ForAP="true" InUse="1" />
+        <CG_mdt.ewp UserName="CG_mdt.ewp" LibName="rl78mdt.ewp" Visible="false" IsLibrary="false" Compiler="ICCRL78" ForAP="true" InUse="1" />
+        <CG_mdt.txt UserName="CG_mdt.txt" LibName="mdt.txt" Visible="false" IsLibrary="false" Compiler="CARL78" ForAP="true" InUse="1" />
+      </Common>
+      <System>
+        <CG_system.c UserName="CG_system.c" LibName=".c" InUse="1">
+          <Type CLOCK_Init="void CLOCK_Init(void)" CG_SelectPowerSaveMode="MD_STATUS CG_SelectPowerSaveMode(enum PSLevel level)" CG_ChangeClockMode="MD_STATUS CG_ChangeClockMode(enum ClockMode mode)" CG_SelectStabTime="MD_STATUS CG_SelectStabTime(enum StabTime waittime)" CG_CRCOn="void CG_CRCOn(void)" CG_CRCOff="void CG_CRCOff(void)" CG_SelectGuardFunction="void CG_SelectGuardFunction(UCHAR regvalue)" />
+          <CLOCK_Init UserName="CLOCK_Init" LibName="CLOCK_Init" InUse="1" Init="1" />
+          <CG_SelectPowerSaveMode UserName="CG_SelectPowerSaveMode" LibName="CG_SelectPowerSaveMode" InUse="0" />
+          <CG_ChangeClockMode UserName="CG_ChangeClockMode" LibName="CG_ChangeClockMode" InUse="0" />
+          <CG_SelectStabTime UserName="CG_SelectStabTime" LibName="CG_SelectStabTime" InUse="0" />
+          <CG_CRCOn UserName="CG_CRCOn" LibName="CG_CRCOn" InUse="0" />
+          <CG_CRCOff UserName="CG_CRCOff" LibName="CG_CRCOff" InUse="0" />
+          <CG_SelectGuardFunction UserName="CG_SelectGuardFunction" LibName="CG_SelectGuardFunction" InUse="0" />
+        </CG_system.c>
+        <CG_system_user.c UserName="CG_system_user.c" LibName="_user.c" InUse="1">
+          <Type CLOCK_UserInit="void CLOCK_UserInit(void)" CG_ReadResetSource="void CG_ReadResetSource(void)" />
+          <CLOCK_UserInit UserName="CLOCK_UserInit" LibName="CLOCK_UserInit" InUse="0" />
+          <CG_ReadResetSource UserName="CG_ReadResetSource" LibName="CG_ReadResetSource" Init="0" InUse="1" />
+        </CG_system_user.c>
+        <CG_system.h UserName="CG_system.h" LibName=".h" InUse="1" />
+      </System>
+      <PORT>
+        <CG_port.c UserName="CG_port.c" LibName=".c" InUse="">
+          <Type PORT_Init="void PORT_Init(void)" PORT_ChangePmnInput3="void PORT_ChangePmnInput3(BOOL enablepu, BOOL enablettl)" PORT_ChangePmnInput2="void PORT_ChangePmnInput2(BOOL enablepu)" PORT_ChangePmnInput1="void PORT_ChangePmnInput1(BOOL enablettl)" PORT_ChangePmnInput0="void PORT_ChangePmnInput0(void)" PORT_ChangePmnOutput1="void PORT_ChangePmnOutput1(BOOL enablench, BOOL initialvalue)" PORT_ChangePmnOutput0="void PORT_ChangePmnOutput0(BOOL initialvalue)" />
+          <PORT_Init UserName="PORT_Init" LibName="PORT_Init" InUse="" Init="0" />
+          <Port0>
+            <P00>
+              <PORT_ChangeP00Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP00Output LibName="PORT_ChangePmnOutput1" InUse="" Visible="false" />
+            </P00>
+            <P01>
+              <PORT_ChangeP01Input LibName="PORT_ChangePmnInput3" InUse="" Visible="false" />
+              <PORT_ChangeP01Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P01>
+          </Port0>
+          <Port1>
+            <P10>
+              <PORT_ChangeP10Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP10Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P10>
+            <P11>
+              <PORT_ChangeP11Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP11Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P11>
+            <P12>
+              <PORT_ChangeP12Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP12Output LibName="PORT_ChangePmnOutput1" InUse="" Visible="false" />
+            </P12>
+            <P16>
+              <PORT_ChangeP16Input LibName="PORT_ChangePmnInput3" InUse="" Visible="false" />
+              <PORT_ChangeP16Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P16>
+            <P17>
+              <PORT_ChangeP17Input LibName="PORT_ChangePmnInput3" InUse="" Visible="false" />
+              <PORT_ChangeP17Output LibName="PORT_ChangePmnOutput1" InUse="" Visible="false" />
+            </P17>
+          </Port1>
+          <Port2>
+            <P20>
+              <PORT_ChangeP20Input LibName="PORT_ChangePmnInput0" InUse="" Visible="false" />
+              <PORT_ChangeP20Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P20>
+            <P21>
+              <PORT_ChangeP21Input LibName="PORT_ChangePmnInput0" InUse="" Visible="false" />
+              <PORT_ChangeP21Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P21>
+            <P22>
+              <PORT_ChangeP22Input LibName="PORT_ChangePmnInput0" InUse="" Visible="false" />
+              <PORT_ChangeP22Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P22>
+          </Port2>
+          <Port3>
+            <P30>
+              <PORT_ChangeP30Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP30Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P30>
+          </Port3>
+          <Port4>
+            <P40>
+              <PORT_ChangeP40Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP40Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P40>
+          </Port4>
+          <Port12>
+            <P121 />
+            <P122 />
+          </Port12>
+          <Port13>
+            <P137 />
+          </Port13>
+          <Port14>
+            <P147>
+              <PORT_ChangeP147Input LibName="PORT_ChangePmnInput2" InUse="" Visible="false" />
+              <PORT_ChangeP147Output LibName="PORT_ChangePmnOutput0" InUse="" Visible="false" />
+            </P147>
+          </Port14>
+        </CG_port.c>
+        <CG_port_user.c UserName="CG_port_user.c" LibName="_user.c" InUse="">
+          <Type PORT_UserInit="void PORT_UserInit(void)" />
+          <PORT_UserInit UserName="PORT_UserInit" LibName="PORT_UserInit" InUse="" />
+        </CG_port_user.c>
+        <CG_port.h UserName="CG_port.h" LibName=".h" InUse="" />
+      </PORT>
+      <INT>
+        <CG_int.c UserName="CG_int.c" LibName=".c" InUse="">
+          <Type INTP_Init="void INTP_Init(void)" INTPn_Enable="void INTPn_Enable(void)" INTPn_Disable="void INTPn_Disable(void)" KEY_Init="void KEY_Init(void)" KEY_Enable="void KEY_Enable(void)" KEY_Disable="void KEY_Disable(void)" INT_MaskableInterruptEnable="MD_STATUS INT_MaskableInterruptEnable(enum MaskableSource name, BOOL enableflag)" />
+          <INTP>
+            <INTP_Init UserName="INTP_Init" LibName="INTP_Init" InUse="" Init="2" />
+            <INT_MaskableInterruptEnable UserName="INT_MaskableInterruptEnable" LibName="INT_MaskableInterruptEnable" InUse="" />
+            <INTP0>
+              <INTP0_Enable UserName="INTP0_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP0_Disable UserName="INTP0_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP0>
+            <INTP3>
+              <INTP3_Enable UserName="INTP3_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP3_Disable UserName="INTP3_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP3>
+            <INTP5>
+              <INTP5_Enable UserName="INTP5_Enable" LibName="INTPn_Enable" InUse="" />
+              <INTP5_Disable UserName="INTP5_Disable" LibName="INTPn_Disable" InUse="" />
+            </INTP5>
+          </INTP>
+        </CG_int.c>
+        <CG_int_user.c UserName="CG_int_user.c" LibName="_user.c" InUse="">
+          <Type INTP_UserInit="void INTP_UserInit(void)" KEY_UserInit="void KEY_UserInit(void)" MD_INTP0="__interrupt void MD_INTP0(void)" MD_INTP1="__interrupt void MD_INTP1(void)" MD_INTP2="__interrupt void MD_INTP2(void)" MD_INTP3="__interrupt void MD_INTP3(void)" MD_INTP4="__interrupt void MD_INTP4(void)" MD_INTP5="__interrupt void MD_INTP5(void)" MD_INTP6="__interrupt void MD_INTP6(void)" MD_INTP7="__interrupt void MD_INTP7(void)" MD_INTP8="__interrupt void MD_INTP8(void)" MD_INTP9="__interrupt void MD_INTP9(void)" MD_INTP10="__interrupt void MD_INTP10(void)" MD_INTP11="__interrupt void MD_INTP11(void)" MD_INTKR="__interrupt void MD_INTKR(void)" />
+          <INTP>
+            <INTP_UserInit UserName="INTP_UserInit" LibName="INTP_UserInit" InUse="" />
+            <MD_INTP0 UserName="MD_INTP0" LibName="MD_INTP0" INTHandle="" InUse="" />
+            <MD_INTP3 UserName="MD_INTP3" LibName="MD_INTP3" INTHandle="" InUse="" />
+            <MD_INTP5 UserName="MD_INTP5" LibName="MD_INTP5" INTHandle="" InUse="" />
+          </INTP>
+          <KEY>
+          </KEY>
+        </CG_int_user.c>
+        <CG_int.h UserName="CG_int.h" LibName=".h" InUse="" />
+      </INT>
+      <Serial>
+        <CG_serial.c UserName="CG_serial.c" LibName=".c" InUse="">
+          <Type SAUn_Init="void SAUn_Init(void)" SAUn_PowerOff="void SAUn_PowerOff(void)" SAUn_SnoozeOn="void SAUn_SnoozeOn(void)" SAUn_SnoozeOff="void SAUn_SnoozeOff(void)" UARTn_Init="void UARTn_Init(void)" UARTn_SendData="MD_STATUS UARTn_SendData(UCHAR *txbuf, USHORT txnum)" UARTn_ReceiveData="MD_STATUS UARTn_ReceiveData(UCHAR *rxbuf, USHORT rxnum)" UARTn_Start="void UARTn_Start(void)" UARTn_Stop="void UARTn_Stop(void)" CSIn_Init="void CSIn_Init(void)" CSIn_SendData="MD_STATUS CSIn_SendData(UCHAR *txbuf, USHORT txnum)" CSIn_ReceiveData="MD_STATUS CSIn_ReceiveData(UCHAR *rxbuf, USHORT rxnum)" CSIn_SendReceiveData="MD_STATUS CSIn_SendReceiveData(UCHAR *txbuf, USHORT txnum, UCHAR *rxbuf)" CSIn_Start="void CSIn_Start(void)" CSIn_Stop="void CSIn_Stop(void)" SIICn_Init="void SIICn_Init(void)" SIICn_MasterSendStart="void SIICn_MasterSendStart(UCHAR adr, UCHAR *txbuf, USHORT txnum)" SIICn_MasterReceiveStart="void SIICn_MasterReceiveStart(UCHAR adr, UCHAR *rxbuf, USHORT rxnum)" SIICn_Stop="void SIICn_Stop(void)" SIICn_StartCondition="void SIICn_StartCondition(void)" SIICn_StopCondition="void SIICn_StopCondition(void)" IICn_Init="void IICn_Init(void)" IICn_MasterSendStart="MD_STATUS IICn_MasterSendStart(UCHAR adr, UCHAR *txbuf, USHORT txnum, UCHAR wait)" IICn_MasterReceiveStart="MD_STATUS IICn_MasterReceiveStart(UCHAR adr, UCHAR *rxbuf, USHORT rxnum, UCHAR wait)" IICn_SlaveSendStart="void IICn_SlaveSendStart(UCHAR *txbuf, USHORT txnum)" IICn_SlaveReceiveStart="void IICn_SlaveReceiveStart(UCHAR *rxbuf, USHORT rxnum)" IICn_Stop="void IICn_Stop(void)" IICn_StopCondition="void IICn_StopCondition(void)" IICn_PowerOff="void IICn_PowerOff(void)" />
+          <SAU0 InUse="">
+            <SAU0_Init UserName="SAU0_Init" LibName="SAUn_Init" InUse="" Init="1" />
+            <SAU0_SnoozeOn UserName="SAU0_SnoozeOn" LibName="SAUn_SnoozeOn" InUse="" />
+            <SAU0_SnoozeOff UserName="SAU0_SnoozeOff" LibName="SAUn_SnoozeOff" InUse="" />
+            <SAU0_PowerOff UserName="SAU0_PowerOff" LibName="SAUn_PowerOff" InUse="" />
+            <UART0 InUse="">
+              <UART0_Init UserName="UART0_Init" LibName="UARTn_Init" InUse="" />
+              <UART0_Start UserName="UART0_Start" LibName="UARTn_Start" InUse="" />
+              <UART0_Stop UserName="UART0_Stop" LibName="UARTn_Stop" InUse="" />
+              <UART0_SendData UserName="UART0_SendData" LibName="UARTn_SendData" InUse="" />
+              <UART0_ReceiveData UserName="UART0_ReceiveData" LibName="UARTn_ReceiveData" InUse="" />
+            </UART0>
+            <UART1 InUse="">
+              <UART1_Init UserName="UART1_Init" LibName="UARTn_Init" InUse="" />
+              <UART1_Start UserName="UART1_Start" LibName="UARTn_Start" InUse="" />
+              <UART1_Stop UserName="UART1_Stop" LibName="UARTn_Stop" InUse="" />
+              <UART1_SendData UserName="UART1_SendData" LibName="UARTn_SendData" InUse="" />
+              <UART1_ReceiveData UserName="UART1_ReceiveData" LibName="UARTn_ReceiveData" InUse="" />
+            </UART1>
+            <CSI00 PIOR="default,timer" InUse="">
+              <CSI00_Init UserName="CSI00_Init" LibName="CSIn_Init" InUse="" />
+              <CSI00_Start UserName="CSI00_Start" LibName="CSIn_Start" InUse="" />
+              <CSI00_Stop UserName="CSI00_Stop" LibName="CSIn_Stop" InUse="" />
+              <CSI00_SendData UserName="CSI00_SendData" LibName="CSIn_SendData" InUse="" />
+              <CSI00_ReceiveData UserName="CSI00_ReceiveData" LibName="CSIn_ReceiveData" InUse="" />
+              <CSI00_SendReceiveData UserName="CSI00_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="" />
+            </CSI00>
+            <CSI11 InUse="">
+              <CSI11_Init UserName="CSI11_Init" LibName="CSIn_Init" InUse="" />
+              <CSI11_Start UserName="CSI11_Start" LibName="CSIn_Start" InUse="" />
+              <CSI11_Stop UserName="CSI11_Stop" LibName="CSIn_Stop" InUse="" />
+              <CSI11_SendData UserName="CSI11_SendData" LibName="CSIn_SendData" InUse="" />
+              <CSI11_ReceiveData UserName="CSI11_ReceiveData" LibName="CSIn_ReceiveData" InUse="" />
+              <CSI11_SendReceiveData UserName="CSI11_SendReceiveData" LibName="CSIn_SendReceiveData" InUse="" />
+            </CSI11>
+            <IIC00 PIOR="default,timer" InUse="">
+              <IIC00_Init UserName="IIC00_Init" LibName="SIICn_Init" InUse="" />
+              <IIC00_MasterSendStart UserName="IIC00_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="" />
+              <IIC00_MasterReceiveStart UserName="IIC00_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="" />
+              <IIC00_Stop UserName="IIC00_Stop" LibName="SIICn_Stop" InUse="" />
+              <IIC00_StartCondition UserName="IIC00_StartCondition" LibName="SIICn_StartCondition" InUse="" />
+              <IIC00_StopCondition UserName="IIC00_StopCondition" LibName="SIICn_StopCondition" InUse="" />
+            </IIC00>
+            <IIC11 InUse="">
+              <IIC11_Init UserName="IIC11_Init" LibName="SIICn_Init" InUse="" />
+              <IIC11_MasterSendStart UserName="IIC11_MasterSendStart" LibName="SIICn_MasterSendStart" InUse="" />
+              <IIC11_MasterReceiveStart UserName="IIC11_MasterReceiveStart" LibName="SIICn_MasterReceiveStart" InUse="" />
+              <IIC11_Stop UserName="IIC11_Stop" LibName="SIICn_Stop" InUse="" />
+              <IIC11_StartCondition UserName="IIC11_StartCondition" LibName="SIICn_StartCondition" InUse="" />
+              <IIC11_StopCondition UserName="IIC11_StopCondition" LibName="SIICn_StopCondition" InUse="" />
+            </IIC11>
+          </SAU0>
+        </CG_serial.c>
+        <CG_serial_user.c UserName="CG_serial_user.c" LibName="_user.c" InUse="">
+          <Type SAUn_UserInit="void SAUn_UserInit(void)" MD_INTSRn="__interrupt void MD_INTSRn(void)" MD_INTSREn="__interrupt void MD_INTSREn(void)" MD_INTSTn="__interrupt void MD_INTSTn(void)" UARTn_ReceiveEndCallback="void UARTn_ReceiveEndCallback(void)" UARTn_SendEndCallback="void UARTn_SendEndCallback(void)" UARTn_ErrorCallback="void UARTn_ErrorCallback(UCHAR err_type)" UARTn_SoftOverRunCallback="void UARTn_SoftOverRunCallback(UCHAR rx_data)" MD_INTCSIn="__interrupt void MD_INTCSIn(void)" CSIn_ReceiveEndCallback="void CSIn_ReceiveEndCallback(void)" CSIn_ErrorCallback="void CSIn_ErrorCallback(UCHAR err_type)" CSIn_SendEndCallback="void CSIn_SendEndCallback(void)" MD_INTSIICn="__interrupt void MD_INTSIICn(void)" SIICn_MasterReceiveEndCallback="void SIICn_MasterReceiveEndCallback(void)" SIICn_MasterSendEndCallback="void SIICn_MasterSendEndCallback(void)" SIICn_MasterErrorCallback="void SIICn_MasterErrorCallback(MD_STATUS flag)" IICn_UserInit="void IICn_UserInit(void)" MD_INTIICn="__interrupt void MD_INTIICn(void)" IICn_MasterSendEndCallback="void IICn_MasterSendEndCallback(void)" IICn_MasterReceiveEndCallback="void IICn_MasterReceiveEndCallback(void)" IICn_SlaveSendStart="MD_STATUS IICn_SlaveSendStart(UCHAR *txbuf, USHORT txnum)" IICn_SlaveReceiveStart="MD_STATUS IICn_SlaveReceiveStart(UCHAR *rxbuf, USHORT rxnum)" IICn_MasterErrorCallback="void IICn_MasterErrorCallback(MD_STATUS flag)" IICn_SlaveErrorCallback="void IICn_SlaveErrorCallback(MD_STATUS flag)" IICn_GetStopConditionCallback="void IICn_GetStopConditionCallback(void)" />
+          <SAU0 InUse="">
+            <SAU0_UserInit UserName="SAU0_UserInit" LibName="SAUn_UserInit" InUse="" />
+            <UART0 InUse="">
+              <MD_INTSR0 UserName="MD_INTSR0" INTHandle="" LibName="MD_INTSRn" InUse="" />
+              <MD_INTSRE0 UserName="MD_INTSRE0" INTHandle="" LibName="MD_INTSREn" InUse="" />
+              <MD_INTST0 UserName="MD_INTST0" INTHandle="" LibName="MD_INTSTn" InUse="" />
+              <UART0_ReceiveEndCallback UserName="UART0_ReceiveEndCallback" LibName="UARTn_ReceiveEndCallback" InUse="" />
+              <UART0_SendEndCallback UserName="UART0_SendEndCallback" LibName="UARTn_SendEndCallback" InUse="" />
+              <UART0_ErrorCallback UserName="UART0_ErrorCallback" LibName="UARTn_ErrorCallback" InUse="" />
+              <UART0_SoftOverRunCallback UserName="UART0_SoftOverRunCallback" LibName="UARTn_SoftOverRunCallback" InUse="" />
+            </UART0>
+            <UART1 InUse="">
+              <MD_INTSR1 UserName="MD_INTSR1" INTHandle="" LibName="MD_INTSRn" InUse="" />
+              <MD_INTSRE1 UserName="MD_INTSRE1" INTHandle="" LibName="MD_INTSREn" InUse="" />
+              <MD_INTST1 UserName="MD_INTST1" INTHandle="" LibName="MD_INTSTn" InUse="" />
+              <UART1_ReceiveEndCallback UserName="UART1_ReceiveEndCallback" LibName="UARTn_ReceiveEndCallback" InUse="" />
+              <UART1_SendEndCallback UserName="UART1_SendEndCallback" LibName="UARTn_SendEndCallback" InUse="" />
+              <UART1_ErrorCallback UserName="UART1_ErrorCallback" LibName="UARTn_ErrorCallback" InUse="" />
+              <UART1_SoftOverRunCallback UserName="UART1_SoftOverRunCallback" LibName="UARTn_SoftOverRunCallback" InUse="" />
+            </UART1>
+            <CSI00 PIOR="default,timer" InUse="">
+              <MD_INTCSI00 UserName="MD_INTCSI00" INTHandle="" LibName="MD_INTCSIn" InUse="" />
+              <CSI00_ReceiveEndCallback UserName="CSI00_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="" />
+              <CSI00_ErrorCallback UserName="CSI00_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="" />
+              <CSI00_SendEndCallback UserName="CSI00_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="" />
+            </CSI00>
+            <CSI11 InUse="">
+              <MD_INTCSI11 UserName="MD_INTCSI11" INTHandle="" LibName="MD_INTCSIn" InUse="" />
+              <CSI11_ReceiveEndCallback UserName="CSI11_ReceiveEndCallback" LibName="CSIn_ReceiveEndCallback" InUse="" />
+              <CSI11_ErrorCallback UserName="CSI11_ErrorCallback" LibName="CSIn_ErrorCallback" InUse="" />
+              <CSI11_SendEndCallback UserName="CSI11_SendEndCallback" LibName="CSIn_SendEndCallback" InUse="" />
+            </CSI11>
+            <IIC00 PIOR="default,timer" InUse="">
+              <MD_INTIIC00 UserName="MD_INTIIC00" INTHandle="" LibName="MD_INTSIICn" InUse="" />
+              <IIC00_MasterReceiveEndCallback UserName="IIC00_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="" />
+              <IIC00_MasterSendEndCallback UserName="IIC00_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="" />
+              <IIC00_MasterErrorCallback UserName="IIC00_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="" />
+            </IIC00>
+            <IIC11 InUse="">
+              <MD_INTIIC11 UserName="MD_INTIIC11" INTHandle="" LibName="MD_INTSIICn" InUse="" />
+              <IIC11_MasterReceiveEndCallback UserName="IIC11_MasterReceiveEndCallback" LibName="SIICn_MasterReceiveEndCallback" InUse="" />
+              <IIC11_MasterSendEndCallback UserName="IIC11_MasterSendEndCallback" LibName="SIICn_MasterSendEndCallback" InUse="" />
+              <IIC11_MasterErrorCallback UserName="IIC11_MasterErrorCallback" LibName="SIICn_MasterErrorCallback" InUse="" />
+            </IIC11>
+          </SAU0>
+        </CG_serial_user.c>
+        <CG_serial.h UserName="CG_serial.h" LibName=".h" InUse="" />
+      </Serial>
+      <AD>
+        <CG_ad.c UserName="CG_ad.c" LibName=".c" InUse="">
+          <Type AD_Init="void AD_Init(void)" AD_Start="void AD_Start(void)" AD_Stop="void AD_Stop(void)" AD_ComparatorOn="void AD_ComparatorOn(void)" AD_ComparatorOff="void AD_ComparatorOff(void)" AD_Read="void AD_Read(USHORT *buffer)" AD_ReadByte="void AD_ReadByte(UCHAR *buffer)" AD_SelectADChannel="MD_STATUS AD_SelectADChannel(enum ADChannel channel)" AD_SnoozeOn="void AD_SnoozeOn(void)" AD_SnoozeOff="void AD_SnoozeOff(void)" AD_SetAREACondition="MD_STATUS AD_SetAREACondition(UCHAR uppervalue, UCHAR lowervalue,enum ADAREA area)" AD_SelectTestChannel="MD_STATUS AD_SelectTestChannel(enum TestChannel channel)" AD_PowerOff="void AD_PowerOff(void)" />
+          <AD_Init UserName="AD_Init" LibName="AD_Init" InUse="" Init="1" />
+          <AD_Start UserName="AD_Start" LibName="AD_Start" InUse="" />
+          <AD_Stop UserName="AD_Stop" LibName="AD_Stop" InUse="" />
+          <AD_ComparatorOn UserName="AD_ComparatorOn" LibName="AD_ComparatorOn" InUse="" />
+          <AD_ComparatorOff UserName="AD_ComparatorOff" LibName="AD_ComparatorOff" InUse="" />
+          <AD_Read UserName="AD_Read" LibName="AD_Read" InUse="" />
+          <AD_ReadByte UserName="AD_ReadByte" LibName="AD_ReadByte" InUse="" />
+          <AD_SelectADChannel UserName="AD_SelectADChannel" LibName="AD_SelectADChannel" InUse="" />
+          <AD_SnoozeOn UserName="AD_SnoozeOn" LibName="AD_SnoozeOn" InUse="" />
+          <AD_SnoozeOff UserName="AD_SnoozeOff" LibName="AD_SnoozeOff" InUse="" />
+          <AD_SetAREACondition UserName="AD_SetAREACondition" LibName="AD_SetAREACondition" InUse="" />
+          <AD_SelectTestChannel UserName="AD_SelectTestChannel" LibName="AD_SelectTestChannel" InUse="" />
+          <AD_PowerOff UserName="AD_PowerOff" LibName="AD_PowerOff" InUse="" />
+        </CG_ad.c>
+        <CG_ad_user.c UserName="CG_ad_user.c" LibName="_user.c" InUse="">
+          <Type AD_User_Init="void AD_UserInit(void)" MD_INTAD="__interrupt void MD_INTAD(void)" />
+          <AD_UserInit UserName="AD_UserInit" LibName="AD_UserInit" InUse="" />
+          <MD_INTAD UserName="MD_INTAD" INTHandle="" LibName="MD_INTAD" InUse="" />
+        </CG_ad_user.c>
+        <CG_ad.h UserName="CG_ad.h" LibName=".h" InUse="" />
+      </AD>
+      <TAU>
+        <CG_timer.c UserName="CG_timer.c" LibName=".c" InUse="1">
+          <Type TAUn_Init="void TAUn_Init(void)" TAUn_PowerOff="void TAUn_PowerOff(void)" TAU_Channeln_Start="void TAU_Channeln_Start(void)" TAU_Channeln_Higher8bitsStart="void TAU_Channeln_Higher8bitsStart(void)" TAU_Channeln_Lower8bitsStart="void TAU_Channeln_Lower8bitsStart(void)" TAU_Channeln_Stop="void TAU_Channeln_Stop(void)" TAU_Channeln_Higher8bitsStop="void TAU_Channeln_Higher8bitsStop(void)" TAU_Channeln_Lower8bitsStop="void TAU_Channeln_Lower8bitsStop(void)" TAU_Channeln_ChangeTimerCondition="void TAU_Channeln_ChangeTimerCondition(USHORT regvalue)" TAU_Channeln_Higher8bitsChangeTimerCondition="void TAU_Channeln_Higher8bitsChangeTimerCondition(UCHAR regvalue)" TAU_Channeln_Lower8bitsChangeTimerCondition="void TAU_Channeln_Lower8bitsChangeTimerCondition(UCHAR regvalue)" TAU_Channeln_GetPulseWidth="void TAU_Channeln_GetPulseWidth(ULONG *width)" TAU_Channeln_SoftWareTriggerOn="void TAU_Channeln_SoftWareTriggerOn(void)" TAU_Channeln_ChangeDuty="void TAU_Channeln_ChangeDuty(UCHAR ratio)" />
+          <TAU0>
+            <TAU0_Init UserName="TAU0_Init" LibName="TAUn_Init" InUse="1" Init="1" />
+            <TAU0_PowerOff UserName="TAU0_PowerOff" LibName="TAUn_PowerOff" InUse="0" />
+            <Channel0 InUse="">
+              <TAU0_Channel0_Start UserName="TAU0_Channel0_Start" LibName="TAU_Channeln_Start" InUse="1" />
+              <TAU0_Channel0_Stop UserName="TAU0_Channel0_Stop" LibName="TAU_Channeln_Stop" InUse="1" />
+              <TAU0_Channel0_ChangeTimerCondition UserName="TAU0_Channel0_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="1" />
+              <TAU0_Channel0_GetPulseWidth UserName="TAU0_Channel0_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="0" />
+              <TAU0_Channel0_SoftWareTriggerOn UserName="TAU0_Channel0_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="0" />
+            </Channel0>
+            <Channel1 InUse="">
+              <TAU0_Channel1_Start UserName="TAU0_Channel1_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel1_Higher8bitsStart UserName="TAU0_Channel1_Higher8bitsStart" LibName="TAU_Channeln_Higher8bitsStart" InUse="0" />
+              <TAU0_Channel1_Lower8bitsStart UserName="TAU0_Channel1_Lower8bitsStart" LibName="TAU_Channeln_Lower8bitsStart" InUse="0" />
+              <TAU0_Channel1_Stop UserName="TAU0_Channel1_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel1_Higher8bitsStop UserName="TAU0_Channel1_Higher8bitsStop" LibName="TAU_Channeln_Higher8bitsStop" InUse="0" />
+              <TAU0_Channel1_Lower8bitsStop UserName="TAU0_Channel1_Lower8bitsStop" LibName="TAU_Channeln_Lower8bitsStop" InUse="0" />
+              <TAU0_Channel1_ChangeTimerCondition UserName="TAU0_Channel1_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+              <TAU0_Channel1_Higher8bitsChangeTimerCondition UserName="TAU0_Channel1_Higher8bitsChangeTimerCondition" LibName="TAU_Channeln_Higher8bitsChangeTimerCondition" InUse="0" />
+              <TAU0_Channel1_Lower8bitsChangeTimerCondition UserName="TAU0_Channel1_Lower8bitsChangeTimerCondition" LibName="TAU_Channeln_Lower8bitsChangeTimerCondition" InUse="0" />
+              <TAU0_Channel1_ChangeDuty UserName="TAU0_Channel1_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="0" />
+              <TAU0_Channel1_GetPulseWidth UserName="TAU0_Channel1_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="0" />
+            </Channel1>
+            <Channel2 InUse="">
+              <TAU0_Channel2_Start UserName="TAU0_Channel2_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel2_Stop UserName="TAU0_Channel2_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel2_ChangeTimerCondition UserName="TAU0_Channel2_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+              <TAU0_Channel2_ChangeDuty UserName="TAU0_Channel2_ChangeDuty" LibName="TAU_Channeln_ChangeDuty" InUse="0" />
+              <TAU0_Channel2_GetPulseWidth UserName="TAU0_Channel2_GetPulseWidth" LibName="TAU_Channeln_GetPulseWidth" InUse="0" />
+              <TAU0_Channel2_SoftWareTriggerOn UserName="TAU0_Channel2_SoftWareTriggerOn" LibName="TAU_Channeln_SoftWareTriggerOn" InUse="0" />
+            </Channel2>
+            <Channel3 InUse="">
+              <TAU0_Channel3_Start UserName="TAU0_Channel3_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel3_Higher8bitsStart UserName="TAU0_Channel3_Higher8bitsStart" LibName="TAU_Channeln_Higher8bitsStart" InUse="0" />
+              <TAU0_Channel3_Lower8bitsStart UserName="TAU0_Channel3_Lower8bitsStart" LibName="TAU_Channeln_Lower8bitsStart" InUse="0" />
+              <TAU0_Channel3_Stop UserName="TAU0_Channel3_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel3_Higher8bitsStop UserName="TAU0_Channel3_Higher8bitsStop" LibName="TAU_Channeln_Higher8bitsStop" InUse="0" />
+              <TAU0_Channel3_Lower8bitsStop UserName="TAU0_Channel3_Lower8bitsStop" LibName="TAU_Channeln_Lower8bitsStop" InUse="0" />
+              <TAU0_Channel3_ChangeTimerCondition UserName="TAU0_Channel3_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+              <TAU0_Channel3_Higher8bitsChangeTimerCondition UserName="TAU0_Channel3_Higher8bitsChangeTimerCondition" LibName="TAU_Channeln_Higher8bitsChangeTimerCondition" InUse="0" />
+              <TAU0_Channel3_Lower8bitsChangeTimerCondition UserName="TAU0_Channel3_Lower8bitsChangeTimerCondition" LibName="TAU_Channeln_Lower8bitsChangeTimerCondition" InUse="0" />
+            </Channel3>
+            <Channel4 PIOR="default,serial" InUse="">
+              <TAU0_Channel4_Start UserName="TAU0_Channel4_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel4_Stop UserName="TAU0_Channel4_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel4_ChangeTimerCondition UserName="TAU0_Channel4_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+            </Channel4>
+            <Channel5 PIOR="default,serial" InUse="">
+              <TAU0_Channel5_Start UserName="TAU0_Channel5_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel5_Stop UserName="TAU0_Channel5_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel5_ChangeTimerCondition UserName="TAU0_Channel5_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+            </Channel5>
+            <Channel6 PIOR="default,serial" InUse="">
+              <TAU0_Channel6_Start UserName="TAU0_Channel6_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel6_Stop UserName="TAU0_Channel6_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel6_ChangeTimerCondition UserName="TAU0_Channel6_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+            </Channel6>
+            <Channel7 PIOR="default,serial" InUse="">
+              <TAU0_Channel7_Start UserName="TAU0_Channel7_Start" LibName="TAU_Channeln_Start" InUse="0" />
+              <TAU0_Channel7_Stop UserName="TAU0_Channel7_Stop" LibName="TAU_Channeln_Stop" InUse="0" />
+              <TAU0_Channel7_ChangeTimerCondition UserName="TAU0_Channel7_ChangeTimerCondition" LibName="TAU_Channeln_ChangeTimerCondition" InUse="0" />
+            </Channel7>
+          </TAU0>
+        </CG_timer.c>
+        <CG_timer_user.c UserName="CG_timer_user.c" LibName="_user.c" InUse="1">
+          <Type TAUn_UserInit="void TAUn_UserInit(void)" MD_INTTMn="__interrupt void MD_INTTMn(void)" MD_INTTMnH="__interrupt void MD_INTTMnH(void)" />
+          <TAU0>
+            <TAU0_UserInit UserName="TAU0_UserInit" LibName="TAUn_UserInit" InUse="0" />
+            <Channel0 InUse="">
+              <MD_INTTM00 UserName="MD_INTTM00" INTHandle="" LibName="MD_INTTMn" InUse="1" />
+            </Channel0>
+            <Channel1 InUse="">
+              <MD_INTTM01 UserName="MD_INTTM01" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+              <MD_INTTM01H UserName="MD_INTTM01H" INTHandle="" LibName="MD_INTTMnH" InUse="0" />
+            </Channel1>
+            <Channel2 InUse="">
+              <MD_INTTM02 UserName="MD_INTTM02" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+            </Channel2>
+            <Channel3 InUse="">
+              <MD_INTTM03 UserName="MD_INTTM03" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+              <MD_INTTM03H UserName="MD_INTTM03H" INTHandle="" LibName="MD_INTTMnH" InUse="0" />
+            </Channel3>
+            <Channel4 InUse="">
+              <MD_INTTM04 UserName="MD_INTTM04" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+            </Channel4>
+            <Channel5 InUse="">
+              <MD_INTTM05 UserName="MD_INTTM05" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+            </Channel5>
+            <Channel6 InUse="">
+              <MD_INTTM06 UserName="MD_INTTM06" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+            </Channel6>
+            <Channel7 InUse="">
+              <MD_INTTM07 UserName="MD_INTTM07" INTHandle="" LibName="MD_INTTMn" InUse="0" />
+            </Channel7>
+          </TAU0>
+        </CG_timer_user.c>
+        <CG_timer.h UserName="CG_timer.h" LibName=".h" InUse="1" />
+      </TAU>
+      <WDT>
+        <CG_wdt.c UserName="CG_wdt.c" LibName=".c" InUse="1">
+          <Type WDT_Init="void WDT_Init(void)" WDT_Restart="void WDT_Restart(void)" />
+          <WDT_Init UserName="WDT_Init" LibName="WDT_Init" InUse="1" Init="1" />
+          <WDT_Restart UserName="WDT_Restart" LibName="WDT_Restart" InUse="1" />
+        </CG_wdt.c>
+        <CG_wdt_user.c UserName="CG_wdt_user.c" LibName="_user.c" InUse="1">
+          <Type WDT_UserInit="void WDT_UserInit(void)" />
+          <WDT_UserInit UserName="WDT_UserInit" LibName="WDT_UserInit" InUse="" />
+          <MD_INTWDTI UserName="MD_INTWDTI" INTHandle="" LibName="MD_INTWDTI" InUse="1" />
+        </CG_wdt_user.c>
+        <CG_wdt.h UserName="CG_wdt.h" LibName=".h" InUse="1" />
+      </WDT>
+      <IT>
+        <CG_it.c UserName="CG_it.c" LibName=".c" InUse="">
+          <Type IT_Init="void IT_Init(void)" IT_Start="void IT_Start(void)" IT_Stop="void IT_Stop(void)" IT_ChangeTimerCondition="void IT_ChangeTimerCondition(USHORT regvalue)" IT_PowerOff="void IT_PowerOff(void)" />
+          <IT_Init UserName="IT_Init" LibName="IT_Init" InUse="" Init="1" />
+          <IT_Start UserName="IT_Start" LibName="IT_Start" InUse="" />
+          <IT_Stop UserName="IT_Stop" LibName="IT_Stop" InUse="" />
+          <IT_ChangeTimerCondition UserName="IT_ChangeTimerCondition" LibName="IT_ChangeTimerCondition" InUse="" />
+          <IT_PowerOff UserName="IT_PowerOff" LibName="IT_PowerOff" InUse="" />
+        </CG_it.c>
+        <CG_it_user.c UserName="CG_it_user.c" LibName="_user.c" InUse="">
+          <Type IT_User_Init="IT_User_Init(void)" MD_INTIT="__interrupt void MD_INTIT(void)" />
+          <IT_UserInit UserName="IT_UserInit" LibName="IT_UserInit" InUse="" />
+          <MD_INTIT UserName="MD_INTIT" INTHandle="" LibName="MD_INTIT" InUse="" />
+        </CG_it_user.c>
+        <CG_it.h UserName="CG_it.h" LibName=".h" InUse="" />
+      </IT>
+      <DMA>
+        <CG_dma.c UserName="CG_dma.c" LibName=".c" InUse="">
+          <Type DMAn_Init="void DMAn_Init(void)	" DMAn_Enable="void DMAn_Enable(void)" DMAn_Disable="void DMAn_Disable(void)" DMAn_Hold="void DMAn_Hold(void)" DMAn_Restart="void DMAn_Restart(void)" DMAn_CheckStatus="MD_STATUS DMAn_CheckStatus(void)" DMAn_SoftwareTriggerOn="void DMAn_SoftwareTriggerOn(void)" DMAn_SetData="MD_STATUS DMAn_SetData(UCHAR sfraddr, USHORT ramaddr, USHORT count)" />
+          <DMA0 InUse="">
+            <DMA0_Init UserName="DMA0_Init" LibName="DMAn_Init" InUse="" Init="1" />
+            <DMA0_Enable UserName="DMA0_Enable" LibName="DMAn_Enable" InUse="" />
+            <DMA0_Disable UserName="DMA0_Disable" LibName="DMAn_Disable" InUse="" />
+            <DMA0_Hold UserName="DMA0_Hold" LibName="DMAn_Hold" InUse="" />
+            <DMA0_Restart UserName="DMA0_Restart" LibName="DMAn_Restart" InUse="" />
+            <DMA0_CheckStatus UserName="DMA0_CheckStatus" LibName="DMAn_CheckStatus" InUse="" />
+            <DMA0_SoftwareTriggerOn UserName="DMA0_SoftwareTriggerOn" LibName="DMAn_SoftwareTriggerOn" InUse="" />
+            <DMA0_SetData UserName="DMA0_SetData" LibName="DMAn_SetData" InUse="" />
+          </DMA0>
+          <DMA1 InUse="">
+            <DMA1_Init UserName="DMA1_Init" LibName="DMAn_Init" InUse="" Init="1" />
+            <DMA1_Enable UserName="DMA1_Enable" LibName="DMAn_Enable" InUse="" />
+            <DMA1_Disable UserName="DMA1_Disable" LibName="DMAn_Disable" InUse="" />
+            <DMA1_Hold UserName="DMA1_Hold" LibName="DMAn_Hold" InUse="" />
+            <DMA1_Restart UserName="DMA1_Restart" LibName="DMAn_Restart" InUse="" />
+            <DMA1_CheckStatus UserName="DMA1_CheckStatus" LibName="DMAn_CheckStatus" InUse="" />
+            <DMA1_SoftwareTriggerOn UserName="DMA1_SoftwareTriggerOn" LibName="DMAn_SoftwareTriggerOn" InUse="" />
+            <DMA1_SetData UserName="DMA1_SetData" LibName="DMAn_SetData" InUse="" />
+          </DMA1>
+        </CG_dma.c>
+        <CG_dma_user.c UserName="CG_dma_user.c" LibName="_user.c" InUse="">
+          <Type DMAn_UserInit="void DMAn_UserInit(void)" MD_INTDMAn="__interrupt void MD_INTDMAn(void)" />
+          <DMA0>
+            <DMA0_UserInit UserName="DMA0_UserInit" LibName="DMAn_UserInit" InUse="" />
+            <MD_INTDMA0 UserName="MD_INTDMA0" INTHandle="" LibName="MD_INTDMAn" InUse="" />
+          </DMA0>
+          <DMA1>
+            <DMA1_UserInit UserName="DMA1_UserInit" LibName="DMAn_UserInit" InUse="" />
+            <MD_INTDMA1 UserName="MD_INTDMA1" INTHandle="" LibName="MD_INTDMAn" InUse="" />
+          </DMA1>
+        </CG_dma_user.c>
+        <CG_dma.h UserName="CG_dma.h" LibName=".h" InUse="" />
+      </DMA>
+      <LVD>
+        <CG_lvd.c UserName="CG_lvd.c" LibName=".c" InUse="">
+          <Type LVD_Init="void LVD_Init(void)" LVD_InterruptModeStart="void LVD_InterruptModeStart(void)" />
+          <LVD_Init UserName="LVD_Init" LibName="LVD_Init" InUse="" Init="1" />
+          <LVD_InterruptModeStart UserName="LVD_InterruptModeStart" LibName="LVD_InterruptModeStart" InUse="" />
+        </CG_lvd.c>
+        <CG_lvd_user.c UserName="CG_lvd_user.c" LibName="_user.c" InUse="">
+          <Type LVD_UserInit="void LVD_UserInit(void)" MD_INTLVI="__interrupt void MD_INTLVI(void)" />
+          <LVD_UserInit UserName="LVD_UserInit" LibName="LVD_UserInit" InUse="" />
+          <MD_INTLVI UserName="MD_INTLVI" INTHandle="" LibName="MD_INTLVI" InUse="" />
+        </CG_lvd_user.c>
+        <CG_lvd.h UserName="CG_lvd.h" LibName=".h" InUse="" />
+      </LVD>
+    </FUNC>
+    <TAG>
+      <GlobleUserTag>
+        <cg_security4 Name="cg_security4" Value="FF" />
+        <cg_security7 Name="cg_security7" Value="FF" />
+        <cg_security3 Name="cg_security3" Value="FF" />
+        <cg_iawctl_value Name="cg_iawctl_value" Value="00" />
+        <cg_security6 Name="cg_security6" Value="FF" />
+        <wdt_option Name="wdt_option" Value="FF" />
+        <lvi_option Name="lvi_option" Value="73" />
+        <cg_security5 Name="cg_security5" Value="FF" />
+        <cg_crc_area Name="cg_crc_area" Value="00" />
+        <clock_option Name="clock_option" Value="E8" />
+        <cg_security0 Name="cg_security0" Value="FF" />
+        <cg_security9 Name="cg_security9" Value="FF" />
+        <cg_security2 Name="cg_security2" Value="FF" />
+        <cg_security8 Name="cg_security8" Value="FF" />
+        <cg_option Name="cg_option" Value="04" />
+        <cg_security1 Name="cg_security1" Value="FF" />
+        <ocdstart Name="ocdstart" Value="03E00" />
+      </GlobleUserTag>
+    </TAG>
+  </DIR>
+  <MACRO>
+    <System HelpID="system" Prepared="true" SetFlag="True" NeedRefresh="False">
+      <System SetFlag="True" MacroName="System" />
+    </System>
+    <PORT HelpID="port" SetFlag="" NeedRefresh="False">
+      <PORT SlowMode="false" MacroName="PORT" />
+    </PORT>
+    <INT SetFlag="" HelpID="int" NeedRefresh="False">
+      <INTP Accelerate="No" MacroName="INTP" />
+    </INT>
+    <Serial SetFlag="" HelpID="serial" NeedRefresh="False">
+      <SAU0 Accelerate="No" Chip="NEC78K0RKA4,NEC78K0RKB4,DF1059_38,DF1059_40,DF1059_44,DF1060_38,DF1060_40,DF1060_44,DF1061_38,DF1061_40,DF1061_44,DF1062_38,DF1062_40,DF1062_44" MacroName="SAU" Channel="0">
+        <Channel0 PIOR="default,timer" UART="0" CSI="00" IIC="00" Channel="0" />
+        <Channel1 UART="0" CSI="" IIC="" Channel="1" />
+        <Channel2 UART="1" CSI="" IIC="" Channel="2" />
+        <Channel3 UART="1" CSI="11" IIC="11" Channel="3" />
+      </SAU0>
+    </Serial>
+    <AD SetFlag="" HelpID="ad" NeedRefresh="False">
+      <AD MacroName="AD" />
+    </AD>
+    <TAU SetFlag="True" HelpID="timer" NeedRefresh="False">
+      <TAU0 Accelerate="No" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3,4,5,6,7" SetFlag="True" />
+    </TAU>
+    <WDT Prepared="true" SetFlag="true" HelpID="watchdogtimer" NeedRefresh="False">
+      <WDT SetFlag="true" MacroName="WDT" />
+    </WDT>
+    <IT SetFlag="" HelpID="intervaltimer" NeedRefresh="False">
+      <IT MacroName="IntervalTM" />
+    </IT>
+    <DMA HelpID="dma" SetFlag="" NeedRefresh="False">
+      <DMA0 MacroName="DMA" Channel="0" />
+      <DMA1 MacroName="DMA" Channel="1" />
+    </DMA>
+    <LVD SetFlag="true" Prepared="true" HelpID="lvi" NeedRefresh="False">
+      <LVD MacroName="LVD" />
+    </LVD>
+  </MACRO>
+  <SETTING>
+    <System>
+      <setting name="VDD" value="VDD0" />
+      <setting name="Main_system_clock" value="high-speed internal clock" />
+      <setting name="High_speed_internal_oscillator" value="operation" />
+      <setting name="High_speed_internal_frequency" value="5" />
+      <setting name="High_speed_system_clock" value="stop" />
+      <setting name="High_speed_system_input" value="X1" />
+      <setting name="HighSpeedSystemStable" value="7" />
+      <setting name="High_speed_system_clock_frequency" value="5" />
+      <setting name="Sub_clock_operation" value="XT1" />
+      <setting name="SubclockFrequency" value="32.768" />
+      <setting name="XT1_oscillator_oscillation_mode" value="0" />
+      <setting name="SubClock" value="unused" />
+      <setting name="Subclock_in_halt" value="0" />
+      <setting name="CPU_clock" value="0" />
+      <setting name="Internal_low-speed_clock" value="15" />
+      <setting name="RTC_clcok_selection" value="0" />
+      <setting name="On_chip_debug" value="unused" />
+      <setting name="Erase_flash_memory" value="yes" />
+      <setting name="Security_ID_setting" value="used" />
+      <setting name="Security_ID" value="0xFFFFFFFFFFFFFFFFFFFF" />
+      <setting name="CG_ReadResetSource" value="generated" />
+      <setting name="CRCoperation" value="unused" />
+      <setting name="CRCArea" value="0" />
+      <setting name="Accessoperation" value="unused" />
+      <setting name="RAMoperation" value="unused" />
+      <setting name="RAMArea" value="0" />
+      <setting name="PORToperation" value="unused" />
+      <setting name="INToperation" value="unused" />
+      <setting name="CHIPoperation" value="unused" />
+    </System>
+    <WDT>
+      <setting name="Operation" value="used" />
+      <setting name="Overflow_time" value="7" />
+      <setting name="Window_opening_time" value="2" />
+      <setting name="Standby_operation" value="enable" />
+      <setting name="Interval_interrupt" value="use" />
+      <setting name="Interval_interrupt_priority" value="3" />
+    </WDT>
+    <LVD>
+      <setting name="Operation" value="used" />
+      <setting name="Reset_only_level" value="0" />
+      <setting name="InterruptReset_level" value="0" />
+      <setting name="Interrupt_level" value="0" />
+      <setting name="Interrupt_only_level" value="0" />
+      <setting name="operation_mode" value="reset" />
+      <setting name="Interrupt_priority" value="3" />
+      <setting name="Interrupt_only_priority" value="3" />
+    </LVD>
+    <TAU0>
+      <Channel0>
+        <setting name="ChannelFunction" value="1" />
+        <setting name="Slavechannel" value="0" />
+        <setting name="Pinselection" value="-1" />
+        <TAUDelay0>
+          <setting name="Mode" value="16bits" />
+          <setting name="Noise_filter" value="unused" />
+          <setting name="External_event_edge" value="1" />
+          <setting name="Delay_value" value="100" />
+          <setting name="Value_scale" value="1" />
+          <setting name="Generate_interrupt_when_counting_started" value="no" />
+          <setting name="Interrupt_priority" value="3" />
+          <setting name="Interrupt" value="used" />
+        </TAUDelay0>
+        <TAUInterval0>
+          <setting name="OperationMode" value="16bits" />
+          <setting name="Count_clock" value="MCK clock" />
+          <setting name="Sub_clock_mode" value="-1" />
+          <setting name="Interval_value" value="1" />
+          <setting name="Value_scale" value="1" />
+          <setting name="Intervalvalue_High8bits" value="100" />
+          <setting name="Intervalvalue_High8bits_scale" value="-1" />
+          <setting name="Intervalvalue_Low8bits" value="100" />
+          <setting name="Intervalvalue_Low8bits_Scale" value="-1" />
+          <setting name="Generate_interrupt_when_couting_started" value="no" />
+          <setting name="Interrupt" value="used" />
+          <setting name="Interrupt_priority" value="3" />
+          <setting name="InterruptH_priority" value="3" />
+          <setting name="InterruptH8" value="unused" />
+        </TAUInterval0>
+      </Channel0>
+      <Channel1>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel1>
+      <Channel2>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel2>
+      <Channel3>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel3>
+      <Channel4>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel4>
+      <Channel5>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel5>
+      <Channel6>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel6>
+      <Channel7>
+        <setting name="ChannelFunction" value="0" />
+        <setting name="Slavechannel" value="-1" />
+        <setting name="Pinselection" value="-1" />
+      </Channel7>
+    </TAU0>
+  </SETTING>
+</NEC78K0RKx4>

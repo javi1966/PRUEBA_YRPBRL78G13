@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4078176932</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTC.r87</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkr5f100le.xcl</file>
+      <file>$PROJ_DIR$\dht11.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\BT_JY104.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\AD_AN13.r87</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\dht11.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\IR.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dht11.pbi</file>
+      <file>$PROJ_DIR$\IR.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r87</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\BT_JY104.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\IR.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\RTC.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlrl78nn1n.r87</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MCP6S92.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\prueba_yrpbrl78g13.d87</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dht11.r87</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.r87</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\delay.h</file>
+      <file>$PROJ_DIR$\intrinsics.h</file>
+      <file>$PROJ_DIR$\ior5f100le.h</file>
+      <file>$PROJ_DIR$\ior5f100le_ext.h</file>
+      <file>$PROJ_DIR$\lcd.c</file>
+      <file>$PROJ_DIR$\lcd.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\RTC.c</file>
+      <file>$PROJ_DIR$\RTC.h</file>
+      <file>$PROJ_DIR$\MCP6S92.c</file>
+      <file>$PROJ_DIR$\MCP6S92.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\AD_AN13.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\prueba_yrpbrl78g13.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.r87</file>
+      <file>$PROJ_DIR$\IR.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\MCP6S92.r87</file>
+      <file>$PROJ_DIR$\BT_JY104.h</file>
+      <file>$PROJ_DIR$\AD_AN13.c</file>
+      <file>$PROJ_DIR$\BT_JY104.c</file>
+      <file>$PROJ_DIR$\AD_AN13.h</file>
+      <file>$PROJ_DIR$\delay.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\dht11.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 4 34 35 33 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 34 35 33 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\IR.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 23 10 24 8 2 0 18 31 9 34 35 33 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 10 24 8 0 18 31 9 34 35 33 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\prueba_yrpbrl78g13.d87</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 7 6 47 1 45 30 17 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34 35 37 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 35 37 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 26 10 24 8 2 0 18 31 9 28 34 35 33 32 37 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 10 24 8 0 18 31 9 28 34 35 33 32 37 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RTC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34 35 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 35 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MCP6S92.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34 35 33 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 35 33 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\prueba_yrpbrl78g13.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 43 19 25 21 5 12 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\AD_AN13.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34 35 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 35 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\BT_JY104.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 34 35 33 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 35 33 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCRL78</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
